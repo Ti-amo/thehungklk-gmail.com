@@ -1593,6 +1593,14 @@
     "@graphql-toolkit/schema-merging" "0.9.9"
     tslib "1.11.1"
 
+"@graphql-codegen/introspection@1.13.1":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/introspection/-/introspection-1.13.1.tgz#4e1c284e36fb573e410833bc047647bced63fd02"
+  integrity sha512-YZUhA0XYVxMYQs5wiiBOMgRAgP0DiA3/TA1W9uPrJF7dCL5JJlss4xzX5x95uRiUntV4ZxrN/6kpfhKagtycRA==
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "1.13.1"
+    tslib "1.11.1"
+
 "@graphql-codegen/plugin-helpers@1.13.1":
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/plugin-helpers/-/plugin-helpers-1.13.1.tgz#83291f758a1bcb9c63fa3293c7b09d38bb1427f3"
@@ -1609,7 +1617,38 @@
     tslib "1.11.1"
     upper-case "2.0.1"
 
-"@graphql-codegen/typescript@^1.13.1":
+"@graphql-codegen/typescript-graphql-files-modules@1.13.1":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-graphql-files-modules/-/typescript-graphql-files-modules-1.13.1.tgz#1d45431126bc534761c4def4ce72b5ab6ae811b7"
+  integrity sha512-XhUrHTVC8o6GCBH0s+ats37+90ziH0c+pE4eoSSrTBqVy09D+Im8FqKCNrlk2YMoC/7uAA9SwOhLOc610OF/9g==
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "1.13.1"
+    tslib "1.11.1"
+
+"@graphql-codegen/typescript-operations@1.13.1":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-operations/-/typescript-operations-1.13.1.tgz#de04f4edd8648146baeb28089a2613fef2f34545"
+  integrity sha512-Lk8tV5QGx/KSkJ8ouk0BTR2qcAKzMYg05JgCn8cl0wdbkxziS7rDh8Gl14cphuJ4LkKYCU8a8pRf/u1FumkZuA==
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "1.13.1"
+    "@graphql-codegen/typescript" "1.13.1"
+    "@graphql-codegen/visitor-plugin-common" "1.13.1"
+    auto-bind "4.0.0"
+    tslib "1.11.1"
+
+"@graphql-codegen/typescript-react-apollo@1.13.1":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-react-apollo/-/typescript-react-apollo-1.13.1.tgz#fe0ae442754b4f02527cf63aa7cb9f502270dda2"
+  integrity sha512-QW02Isj4hQzNJYDxLvQtZg/+nkbcQSuSDKb0DS4EgDZXjrXEBEkG2qHwNsRjFO55+toUnF7nbShpSakZAgM5dw==
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "1.13.1"
+    "@graphql-codegen/visitor-plugin-common" "1.13.1"
+    auto-bind "4.0.0"
+    camel-case "4.1.1"
+    pascal-case "3.1.1"
+    tslib "1.11.1"
+
+"@graphql-codegen/typescript@1.13.1":
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-1.13.1.tgz#36c6751b6d50ffcda6ee9b5cf79dee7681039c52"
   integrity sha512-Ob3Uw+Mp5p90mYFSKwk7iDLClmWjCScAv60mM441y4kmXlIQ79o3n3YIC5ZqUmmclarS7MGnkdpgcsgrOQNMrw==

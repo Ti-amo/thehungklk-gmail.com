@@ -64,7 +64,7 @@ const Company = (props: any) => {
               <CompanyInfo key={index}>
                 <Link key={index} to={`/companies/${company.id}`}>
                   <CompanyLogo>
-                    <img src={company.image} />
+                    <img src={company.image ? company.image : ""} />
                   </CompanyLogo>
                 </Link>
                 <CompanyInfoDetail>
@@ -78,7 +78,7 @@ const Company = (props: any) => {
                       <span className="icon">
                         {' '}
                         <i className="fas fa-briefcase" />
-                      </span>
+                      </span> 
                       {company.language}
                     </span>
                     <br />
@@ -165,7 +165,7 @@ const CompanyInfoDetail = styled.div`
 
 const CompanyInfoName = styled.h1`
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
   a {
     text-decoration: none;

@@ -8,10 +8,6 @@ interface Props {}
 const index = (props: Props) => {
   return (
     <CommentContainer>
-      {/* <TabMenu />
-            <div className="tabs-section">
-                <Company />
-            </div> */}
       <RecentlyComment />
     </CommentContainer>
   )
@@ -20,6 +16,7 @@ const index = (props: Props) => {
 export default index
 
 const CommentContainer = styled(Column)`
+padding-left: 1rem;
   margin-top: 5rem;
   @media (max-width: 767.98px) {
     margin-top: 1rem;

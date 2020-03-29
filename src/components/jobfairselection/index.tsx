@@ -43,7 +43,7 @@ const JobfairSelection: FC<JobfairProps> = (props: JobfairProps) => {
       >
         <JobfairOption value="Tất cả">Tất cả</JobfairOption>
         {data.jobfairs.map((item: Jobfair, index: number) => (
-          <JobfairOption key={index} value={item.title}>
+          <JobfairOption key={index} value={item.title ? item.title : ""}>
             {item.title}
           </JobfairOption>
         ))}

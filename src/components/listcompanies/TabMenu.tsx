@@ -15,22 +15,18 @@ export default TabMenu
 
 const TabMain = styled.div`
 padding-top: 1rem;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.5rem;
     margin-bottom: 2rem;
     border-bottom: 1.5px solid #dbdbdb;
-    height: fit-content;
+    height: 3.3rem;
     background-color: #fc625a;
     border-top-left-radius: 15px; 
     border-top-right-radius: 15px;
 `
-const TabText = styled.h1`
+const TabText = styled.p`
 margin-top: 0;
 text-align: center;
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 450;
-  line-height: 1.125;
   font-style: italic;
 `
