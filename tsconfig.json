@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "typeRoots": [ "./types", "./node_modules/@types"],
     "target": "es5",
     "lib": [
       "dom",
@@ -19,6 +20,7 @@
     "noEmit": true,
     "jsx": "react"
   },
+  "exclude": ["node_modules", "typings"],
   "include": [
     "src"
   ]
